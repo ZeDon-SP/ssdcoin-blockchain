@@ -254,7 +254,7 @@ full_node:
       host: *self_hostname
       port: 29446
   introducer_peer:
-      host: introducer.ssdcoin.org  # SSDCoin introducer IPv4/IPv6
+      host: introducer.ssdcoin.greenforks.club  # SSDCoin introducer IPv4
       port: 29444
   wallet_peer:
     host: *self_hostname
@@ -339,7 +339,7 @@ wallet:
 
   # TODO: Maybe.
   introducer_peer:
-    host: introducer.ssdcoin.org # SSDCoin AWS introducer IPv4/IPv6
+    host: introducer.ssdcoin.greenforks.club # SSDCoin introducer IPv4/IPv6
     port: 29444
 
   ssl:
