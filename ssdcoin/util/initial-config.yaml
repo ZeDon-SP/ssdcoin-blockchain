@@ -254,8 +254,8 @@ full_node:
       host: *self_hostname
       port: 29446
   introducer_peer:
-      host: introducer.ssdcoin.org  # SSDCoin introducer IPv4/IPv6
-      port: 29444
+      host: introducer.ssdcoin.greenforks.club  # SSDCoin introducer IPv4
+      port: 29445
   wallet_peer:
     host: *self_hostname
     port: 29449
@@ -337,10 +337,9 @@ wallet:
   # recent_peer_threshold seconds
   recent_peer_threshold: 6000
 
-  # TODO: Maybe.
   introducer_peer:
-    host: introducer.ssdcoin.org # SSDCoin AWS introducer IPv4/IPv6
-    port: 29444
+    host: introducer.ssdcoin.greenforks.club # SSDCoin introducer IPv4/IPv6
+    port: 29445
 
   ssl:
     private_crt:  "config/ssl/wallet/private_wallet.crt"
